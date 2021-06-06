@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rectangle Calculator</string>
+    <string name="widthLabelText">Width</string>
+    <string name="heightLabelText">Height</string>
+    <string name="areaLabelText">Area</string>
+    <string name="perimeterLabelText">Perimeter</string>
+    <string name="numberDefaultText">0.00</string>
+</resources>
