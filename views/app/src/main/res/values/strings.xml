@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Views</string>
+    <string-array name="split_array">
+        <item>Split the bill? - No</item>
+        <item>Split the bill? - 2 ways</item>
+        <item>Split the bill? - 3 ways</item>
+        <item>Split the bill? - 4 ways</item>
+    </string-array>
+</resources>
