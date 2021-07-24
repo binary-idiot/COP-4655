@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Measurement Converter</string>
+    <string name="conversionTypeLabel">Conversion</string>
+    <string name="mileUnit">Miles</string>
+    <string name="kilometerUnit">Kilometers</string>
+    <string name="inchUnit">Inches</string>
+    <string name="centimeterUnit">Centimeters</string>
+    <string name="authorLabel">Created by Jonah Middleton</string>
+    <!--Conversion ratios-->
+    <string name="mToK">1.6093</string>
+    <string name="kToM">0.6214</string>
+    <string name="iToC">2.54</string>
+    <string name="cToI">0.3937</string>
+</resources>
