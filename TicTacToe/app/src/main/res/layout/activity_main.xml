@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/gameSpace2_1"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/gameSpace2_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/gameSpace2_0"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace1_1" />
+
+    <Button
+        android:id="@+id/gameSpace2_2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="20dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace1_2" />
+
+    <Button
+        android:id="@+id/gameSpace2_0"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="20dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace1_0" />
+
+    <Button
+        android:id="@+id/gameSpace1_1"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/gameSpace1_2"
+        app:layout_constraintStart_toEndOf="@+id/gameSpace1_0"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace0_1" />
+
+    <Button
+        android:id="@+id/gameSpace1_2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="20dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace0_2" />
+
+    <Button
+        android:id="@+id/gameSpace1_0"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="20dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace0_0" />
+
+    <Button
+        android:id="@+id/gameSpace0_0"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gameSpace0_1"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/gameSpace0_2"
+        app:layout_constraintStart_toEndOf="@+id/gameSpace0_0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gameSpace0_2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:ellipsize="none"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/messageBoxTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/welcomeMessageText"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace2_1" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/newGameText"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageBoxTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
