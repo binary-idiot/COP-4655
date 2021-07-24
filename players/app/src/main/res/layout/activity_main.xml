@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/startButtonText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/scoreboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/scoreboardButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/startButton"
+        app:layout_constraintStart_toStartOf="@+id/startButton"
+        app:layout_constraintTop_toBottomOf="@+id/startButton" />
+
+    <Button
+        android:id="@+id/selectP1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/selectP1ButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/scoreboardButton"
+        app:layout_constraintStart_toStartOf="@+id/scoreboardButton"
+        app:layout_constraintTop_toBottomOf="@+id/scoreboardButton" />
+
+    <Button
+        android:id="@+id/selectP2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/selectP2ButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/selectP1Button"
+        app:layout_constraintStart_toStartOf="@+id/selectP1Button"
+        app:layout_constraintTop_toBottomOf="@+id/selectP1Button" />
+
+    <Button
+        android:id="@+id/addPButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/addPButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/selectP2Button"
+        app:layout_constraintStart_toStartOf="@+id/selectP2Button"
+        app:layout_constraintTop_toBottomOf="@+id/selectP2Button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

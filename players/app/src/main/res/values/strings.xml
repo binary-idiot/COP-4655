@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Players</string>
+    <string name="startButtonText">Start Game</string>
+    <string name="scoreboardButtonText">View Scoreboard</string>
+    <string name="selectP1ButtonText">Select Player 1</string>
+    <string name="selectP2ButtonText">Select Player 2</string>
+    <string name="addPButtonText">Add Player</string>
+</resources>
