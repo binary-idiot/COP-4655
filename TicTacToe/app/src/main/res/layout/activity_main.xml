@@ -9,52 +9,57 @@
     <Button
         android:id="@+id/gameSpace2_1"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/gameSpace2_2"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias=".5"
         app:layout_constraintStart_toEndOf="@+id/gameSpace2_0"
         app:layout_constraintTop_toBottomOf="@+id/gameSpace1_1" />
 
     <Button
         android:id="@+id/gameSpace2_2"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gameSpace1_2" />
+        app:layout_constraintStart_toEndOf="@+id/gameSpace2_1"
+        app:layout_constraintTop_toBottomOf="@+id/gameSpace1_2"
+        app:layout_constraintVertical_bias="0.489" />
 
     <Button
         android:id="@+id/gameSpace2_0"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/gameSpace1_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameSpace1_0" />
 
     <Button
         android:id="@+id/gameSpace1_1"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameSpace2_1"
         app:layout_constraintEnd_toStartOf="@+id/gameSpace1_2"
         app:layout_constraintStart_toEndOf="@+id/gameSpace1_0"
         app:layout_constraintTop_toBottomOf="@+id/gameSpace0_1" />
@@ -62,53 +67,55 @@
     <Button
         android:id="@+id/gameSpace1_2"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameSpace2_2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gameSpace1_1"
         app:layout_constraintTop_toBottomOf="@+id/gameSpace0_2" />
 
     <Button
         android:id="@+id/gameSpace1_0"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginStart="20dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameSpace2_0"
+        app:layout_constraintEnd_toStartOf="@+id/gameSpace1_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gameSpace0_0" />
 
     <Button
         android:id="@+id/gameSpace0_0"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameSpace1_0"
+        app:layout_constraintEnd_toStartOf="@+id/gameSpace1_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/gameSpace0_1"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameSpace1_1"
         app:layout_constraintEnd_toStartOf="@+id/gameSpace0_2"
         app:layout_constraintStart_toEndOf="@+id/gameSpace0_0"
         app:layout_constraintTop_toTopOf="parent" />
@@ -116,15 +123,15 @@
     <Button
         android:id="@+id/gameSpace0_2"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="125dp"
-        android:layout_height="125dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:ellipsize="none"
         android:textAlignment="center"
         android:textSize="50sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gameSpace1_2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gameSpace0_1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -152,4 +159,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/messageBoxTextView" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
